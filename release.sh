@@ -2,7 +2,7 @@
 
 set -xe
 
-image_name='sysbench'
+image_name='grtools'
 version=$1
 
 if [[ $version == "" ]];then

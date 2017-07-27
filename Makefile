@@ -1,7 +1,7 @@
 all: build
 
 build:
-	@docker build --tag=sysbench:latest .
+	@docker build --tag=grtools:latest .
 
 release: build
-	@docker build --tag=sysbench:$(shell cat VERSION) .
+	@docker build --tag=grtools:$(shell cat VERSION) .
